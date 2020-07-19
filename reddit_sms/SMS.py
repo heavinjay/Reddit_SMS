@@ -4,7 +4,6 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 def send(message):
-    # Replace the number with your own
     to_number = cred.keyring.get_password('phone_number', 'phone_num')
     auth = (cred.keyring.get_password('gmail_user', 'gmail_username'), cred.keyring.get_password('gmail_pass', 'gmail_pass'))
 
