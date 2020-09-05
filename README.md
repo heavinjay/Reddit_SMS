@@ -1,5 +1,4 @@
 # Reddit_SMS
-Send sms messages for new posts.
 This application is used to send automated text messages when a post is made that includes keywords. The text message will include the title of the post
 along with a clickable URL to take you directly to the post. The intention of this application is so that you may be notified as soon as possible when a
 post is made that could interest you. This application is currently set to check every 5 minutes for [WTS] tags in post titles within two subreddits. If
