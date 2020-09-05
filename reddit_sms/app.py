@@ -9,7 +9,7 @@ def myapp():
     # for reddit api
     reddit = praw.Reddit(client_id=cred.keyring.get_password('client_ID', 'reddit_clientID'),
                          client_secret=cred.keyring.get_password('client_pass', 'reddit_clientPass'),
-                         user_agent='reddit_sms',
+                         user_agent='Enter your user agent here',
                          username=cred.keyring.get_password('user_login', 'reddit_username'),
                          password=cred.keyring.get_password('user_pass', 'reddit_pass'))
 
